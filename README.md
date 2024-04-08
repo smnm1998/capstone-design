@@ -6,6 +6,6 @@ Dataset: https://huggingface.co/datasets/TrainingDataPro/facial-emotion-recognit
 Framework
 AI - 미정
 Backend - Spring Boot
-Frontend - React
+Frontend - React.js(Vite.js, Typescript, styled-component, Redux)
 DB - MariaDB
 ```

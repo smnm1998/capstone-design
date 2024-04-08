@@ -1,0 +1,21 @@
+:root {
+    --background-color-light: #f5f5f5; /* 라이트 모드 배경색 */
+    --text-color-light: #000000; /* 라이트 모드 텍스트 색상 */
+    --background-color-dark: #000000; /* 다크 모드 배경색 */
+    --text-color-dark: #f5f5f5; /* 다크 모드 텍스트 색상 */
+    --transition-duration: 0.4s; /* 트랜지션 지속 시간 */
+}
+
+/* 라이트 모드 스타일 */
+body.light-mode {
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+    transition: background-color var(--transition-duration), color var(--transition-duration);
+}
+
+/* 다크 모드 스타일 */
+body.dark-mode {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+    transition: background-color var(--transition-duration), color var(--transition-duration);
+}
