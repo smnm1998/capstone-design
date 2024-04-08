@@ -2,10 +2,9 @@
 ```
 Dataset: https://huggingface.co/datasets/TrainingDataPro/facial-emotion-recognition-dataset
 ```
+#  사용하는 기술 스택
 ```
-Framework
-AI - 미정
-Backend - Spring Boot
-Frontend - React
-DB - MariaDB
+React.js (Typescript),
+Vite.js,
+Styled-components,
 ```
