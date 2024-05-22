@@ -1,2 +1,4 @@
-src/** linguist-documentation=false
-src/** linguist-vendored=false
+*.typescript linguist-detectable=true
+*.javascript linguist-detectable=true
+*.HTML5 linguist-detectable=true
+*.CSS linguist-detectable=true
