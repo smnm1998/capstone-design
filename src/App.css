@@ -1,0 +1,26 @@
+/* 폰트 로드 */
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 전체적인 폰트 설정 */
+body {
+    font-family: 'LINESeedKR-Bd', sans-serif; /* '양진체' 폰트를 기본 폰트로 설정하고, 이 폰트가 로드되지 않은 경우 시스템 기본 폰트를 사용합니다. */
+    background-color: #f5f5f5;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+}
+
+body.dark-mode {
+    background-color: #444445;
+    color: #f5f5f5;
+    font-family: 'LINESeedKR-Bd', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+}
