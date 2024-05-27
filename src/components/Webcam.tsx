@@ -29,13 +29,13 @@ const ButtonContainer = styled.div`
 
 const Button = styled.button`
   margin: 0 10px;
-  padding: 12px 22px;
+  padding: 10px 18px;
   background-color: ${(props) => (props.disabled ? '#ccc' : '#FF6347')};
   color: white;
   font-size: 16px;
   font-family: 'LINESeedKR-Bd', sans-serif;
   border: none;
-  border-radius: 12px;
+  border-radius: 6px;
   cursor: ${(props) => (props.disabled ? 'not-allowed' : 'pointer')};
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
