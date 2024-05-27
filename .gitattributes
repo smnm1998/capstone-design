@@ -1,4 +1,4 @@
-*.typescript linguist-detectable=true
-*.javascript linguist-detectable=true
-*.HTML5 linguist-detectable=true
-*.CSS linguist-detectable=true
+*.extension linguist-language=TypeScript
+*.extension linguist-language=JavaScript
+*.extension linguist-language=HTML5
+*.extension linguist-language=CSS
