@@ -25,7 +25,7 @@ const App: React.FC = () => {
     // 2초 후에 로딩 상태 변경
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 2000);
   }, []);
 
   // 로딩 중일 때 로딩 컴포넌트를 보여줌
