@@ -1,4 +1,4 @@
-*.extension linguist-language=TypeScript
-*.extension linguist-language=JavaScript
-*.extension linguist-language=HTML5
-*.extension linguist-language=CSS
+*.ts linguist-language=TypeScript
+*.js linguist-language=JavaScript
+*.html linguist-language=HTML
+*.css linguist-language=CSS
